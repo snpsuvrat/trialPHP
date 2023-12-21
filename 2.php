@@ -33,10 +33,11 @@ if(isset($_POST['submit']))
 $id=$_POST['empid'];
 }
 $sql="select emp_name from personal_details where emp_id=$id";
-
+$data=array();
+$data=($sql);
 if(mysqli_query($conn,$sql))
 {
-echo "<script>alert('new record inserted')</script>";
+echo $data;
 }
 else{
 echo "error:",mysqli_error($conn);
