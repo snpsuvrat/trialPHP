@@ -17,6 +17,6 @@
 $filename=$_FILES['uploadfile']['name'];
 $tempname=$_FILES['uploadfile']['tmp_name'];
 print_r($_FILES['uploadfile']);
-$folder="C:\Users\shivs\OneDrive\Documents\php_storage\.$filename";
+$folder="C:/Users/shivs/OneDrive/Documents/php_storage/$filename";
 move_uploaded_file($tempname,$folder);
 ?>
