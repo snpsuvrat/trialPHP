@@ -13,7 +13,7 @@
     </form>
 </body>
 </html>
-<?php
+<?php                                             //comment
 $filename=$_FILES['uploadfile']['name'];
 $tempname=$_FILES['uploadfile']['tmp_name'];
 print_r($_FILES['uploadfile']);
