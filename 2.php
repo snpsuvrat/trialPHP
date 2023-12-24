@@ -6,7 +6,7 @@
 <title>Document</title>
 </head>
 <body>
-<form action="2.php" method="post">
+<form action="#" method="post">
 <label>empid</label>
 <input type="text" name="empid"/>
 <input type="submit" name="submit" value="submit"/>
@@ -33,8 +33,7 @@ if(isset($_POST['submit']))
 $id=$_POST['empid'];
 }
 $sql="select emp_name from personal_details where emp_id=$id";
-$data=array();
-$data=($sql);
+$data=mysqli_query($conn,$sql);
 if(mysqli_query($conn,$sql))
 {
 echo $data;
