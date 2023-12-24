@@ -11,7 +11,7 @@
 <input type="number" name="userno"/>
 <label>UserName</label>
 <input type="text" name="UserName"/>
-<label>UserPass</label>
+<label>UserPassWord</label>
 <input type="text" name="UserPass"/>
 <input type="submit" name="submit" value="submit"/>
 </form>
