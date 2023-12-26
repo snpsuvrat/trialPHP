@@ -18,7 +18,7 @@
 <?php
 $id=$_POST['id'];
 $pass=$_POST['pass'];
-if($id== "suvrat")
+if($id== "user1")
 {
     if($pass== "123")
     {
