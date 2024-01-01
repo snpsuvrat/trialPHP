@@ -25,7 +25,7 @@ die("Sorry we failed to connect: ".mysqli_connect_error());
 }
 else
 {
-echo "connected to database";
+echo "connected to database Succesfully";
 }
 
 if(isset($_POST['submit']))
