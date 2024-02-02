@@ -9,7 +9,7 @@
         <label>Input Username</label>
         <input type="text" name="id"/>
         <br>
-        <label>Input Password!</label>
+        <label>Input Password</label>
         <input type="password" name="pass"/>
         <input type="submit" value="submit">
     </form>
